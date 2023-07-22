@@ -11,12 +11,12 @@ namespace L1PathFinderPlugin
     {
         public void FindPath(PathFindData input, PathFindResult result, Stopwatch sw)
         {
-            int[,] grid = new int[input.Width, input.Height];
+            int[,] grid = new int[input.Height, input.Width];
             int i = 0;
             for (int y = 0; y < input.Height; y++)
                 for (int x = 0; x < input.Width; x++)
                 {
-                    grid[x, y] = input.Field[i];
+                    grid[y, x] = input.Field[i];
                     i++;
                 }
 
