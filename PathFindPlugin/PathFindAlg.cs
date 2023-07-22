@@ -1,11 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace PathFindPlugin
 {
     // чтобы не тянуть System.Drawing ради Point
     public struct Coord
     {
+        public Coord(int x = 0, int y = 0) 
+        { 
+            this.x = x;
+            this.y = y;
+        }
         public int x { get; set; }
         public int y { get; set; }
     }
@@ -34,6 +40,6 @@ namespace PathFindPlugin
     {
         // метод FindPath должен заполенить структуру result - единственное поле Path 
         // если пройти из Start в End нельзя, то Path должен быть или Null или пустой
-        void FindPath(PathFindData input, PathFindResult result);
+        void FindPath(PathFindData input, PathFindResult result, Stopwatch stopWatch);
     }
 }

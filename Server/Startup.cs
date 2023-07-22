@@ -15,6 +15,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using PathFindSample;
 using PathFindPlugin;
+using L1PathFinderPlugin;
 
 namespace pathfind
 {
@@ -63,7 +64,7 @@ namespace pathfind
                 endpoints.MapControllers();
             });
 
-            PluginsList.Register(new Sample(), "1");
+            PluginsList.Register(new L1PathFinderPlugin.L1PathFinderAlg(), "l1");
 
         }
     }

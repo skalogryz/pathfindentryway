@@ -56,9 +56,7 @@ namespace pathfind.Controllers
             Stopwatch sw = new Stopwatch();
             try
             {
-                sw.Start();
-                alg.FindPath(inp, findres);
-                sw.Stop();
+                alg.FindPath(inp, findres, sw);
                 result.time = sw.Elapsed.TotalMilliseconds;
                 result.AddPathResult(findres);
             } 

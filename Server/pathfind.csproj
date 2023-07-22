@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\L1PathFinderPlugin\L1PathFinderPlugin.csproj" />
     <ProjectReference Include="..\PathFindPlugin\PathFindPlugin.csproj" />
     <ProjectReference Include="..\PathFindSample\PathFindSample.csproj" />
   </ItemGroup>

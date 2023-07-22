@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pathfind", "Server\pathfind.csproj", "{62D61D7B-6F97-4930-963E-BE48D97F2ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFindPlugin", "PathFindPlugin\PathFindPlugin.csproj", "{45F73140-B9DF-4979-879E-F6BD46876E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFindPlugin", "PathFindPlugin\PathFindPlugin.csproj", "{45F73140-B9DF-4979-879E-F6BD46876E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFindSample", "PathFindSample\PathFindSample.csproj", "{0AEFD952-E381-4FDC-ABB5-66D110710F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFindSample", "PathFindSample\PathFindSample.csproj", "{0AEFD952-E381-4FDC-ABB5-66D110710F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1PathFinderPlugin", "L1PathFinderPlugin\L1PathFinderPlugin.csproj", "{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0AEFD952-E381-4FDC-ABB5-66D110710F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AEFD952-E381-4FDC-ABB5-66D110710F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AEFD952-E381-4FDC-ABB5-66D110710F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
