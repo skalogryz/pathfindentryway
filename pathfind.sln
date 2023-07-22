@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathFindSample", "PathFindS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1PathFinderPlugin", "L1PathFinderPlugin\L1PathFinderPlugin.csproj", "{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1win", "L1win\L1win.csproj", "{6CA0C775-2E30-4B3B-97C5-320C58F732BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L1PathFinder", "L1PathFinder\L1PathFinder.csproj", "{703F3A1C-8F3E-4A26-937F-73F9E5D92580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98F1AC5-D652-4DF2-AC21-29C81CEFE8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA0C775-2E30-4B3B-97C5-320C58F732BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA0C775-2E30-4B3B-97C5-320C58F732BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA0C775-2E30-4B3B-97C5-320C58F732BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA0C775-2E30-4B3B-97C5-320C58F732BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703F3A1C-8F3E-4A26-937F-73F9E5D92580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703F3A1C-8F3E-4A26-937F-73F9E5D92580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703F3A1C-8F3E-4A26-937F-73F9E5D92580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703F3A1C-8F3E-4A26-937F-73F9E5D92580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
